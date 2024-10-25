@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gradient Form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  
+
+  <div class="form-container">
+    <form class="form" action="/post" method="post">
+      <h2>Registration Form</h2>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Enter your username" required>
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password" required>
+      
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+      
+      <label for="country">Country</label>
+      <select id="country" name="country" required>
+        <option value="">Select your country</option>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="india">India</option>
+        <option value="australia">Australia</option>
+      </select>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  
+</body>
+</html>
